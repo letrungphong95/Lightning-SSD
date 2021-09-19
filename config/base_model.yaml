@@ -1,0 +1,18 @@
+dataset: 'mnist'
+
+# Data
+train_dataset: 'data/VOC2007/trainval'
+test_dataset: 'data/VOC2007/test'
+store_model: ''
+data_dir: 'data/'
+num_workers: 0
+pin_memory: false
+
+# Model
+size: [1, 28, 28]
+learning_rate: 0.001
+weight_decay: 0.0005
+batch_size: 32
+num_epoch: 100
+num_classes: 10 
+layers: [256, 256, 256]
